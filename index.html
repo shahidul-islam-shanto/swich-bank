@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swich Bank</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- form area -->
+  <div class="container bg-light pb-4">
+  <div id="login-area">
+   <h1 class="text-center p-3 my-4">Welcome to Swich Bank</h1>
+     <div class="form-click submet-area  p-5 my-5">
+       <div class="mb-3">
+         <label for="exampleFormControlInput1" class="form-label">Login</label>
+           <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3 row">
+        <label for="inputPassword" class="form-label"></label>
+           <div class="col-sm-12">
+           <input type="password" class="form-control" id="inputPassword"placeholder="Password">
+           <br>
+         <button id="login" class="btn btn-success">Submit</button>
+       </div>
+      </div>
+    </div>
+   </div> 
+
+
+     <!-- transaction area -->
+      <div id="transaction">
+        <h1 class="text-center my-4 p-4">Transaction Area</h1>
+        <div class="row account bg-light p-5">
+          <div class="col-lg-4">
+            <div class="deposit statas">
+              <h5>Deposit</h5>
+              <h2>$ <span id="currentDeposit">00</span></h2>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="withdraw statas">
+              <h5>Withdraw</h5>
+              <h2>$ <span id="currentWithdraw">00</span></h2>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="balance statas">
+              <h5>Balance</h5>
+            <h2>$ <span id="currentBalance">1240</span></h2>
+            </div>
+          </div>
+        </div>
+
+       <div class="container my-3">
+        <div class="row">
+          <div class="col-lg-6">
+             <div class="deponumber p-5">
+               <h4>Deposit</h4>
+               <input type="text" class="form-control" id="depositAmount" placeholder="$ amount your went to deposit" ><br>
+               <button id="addDeposit" class="btn btn-success">Deposit</button>
+            </div>
+          </div>
+            <div class="col-lg-6">
+             <div class="withnumber p-5">
+               <h4>Withdraw</h4>
+               <input type="text" class="form-control" id="withdrawAmount" placeholder="$ amount your went to withdraw" ><br>
+               <button id="addWithdraw" class="btn btn-success">Withdraw</button>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+  </div>
+    
+       
+
+
+
+
+ <script src="/java.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+.form-click{
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px gray;
+    
+   
+}
+#transaction{
+    display: none;
+}
+.account{
+    border-radius: 10px;
+    
+}
+
+.statas{
+    padding: 30px;
+    border-radius: 10px;
+    color: #fff;
+}
+.deposit{
+    background-color: #155472;
+}
+.withdraw{
+    background-color: #32aaaa;
+}
+.balance{
+    background-color: #d87151;
+}
+
+.deponumber{
+    border-radius: 10px;
+   box-shadow: 4px 4px 6px gray;
+}
+.withnumber{
+    border-radius: 10px;
+    box-shadow: 4px 4px 6px gray;
+    
+}
+
